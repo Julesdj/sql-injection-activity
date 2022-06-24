@@ -1,0 +1,40 @@
+form {
+    width: 50vw;
+    margin: 100px auto;
+}
+
+input {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 4px;
+    display: inline-block;
+    border: 1px solid rgb(10, 9, 9);
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0c4d0e;
+    color: rgb(217, 226, 214);
+    padding: 10px 0;
+    margin-top: 10px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.container {
+    padding: 30px;
+}
+
+.unauthorized {
+    background-color: rgb(240, 24, 35);
+}
+
+.error {
+    background-color: rgb(248, 198, 198);
+}
